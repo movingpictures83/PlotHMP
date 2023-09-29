@@ -1,0 +1,2 @@
+Prefix plugins/PlotHMP/example/
+Plugin PlotHMP inputfile parameters.txt outputfile .

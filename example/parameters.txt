@@ -1,0 +1,3 @@
+labels	labels.txt
+data	data.txt
+inputs	inputs.txt
