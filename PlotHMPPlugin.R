@@ -119,7 +119,8 @@ dataFrameWithReadsAndOutput[,1:1] = sapply(dataFrameWithReadsAndOutput[,1:1], as
 #	Remaining columns should be "Numeric" as they are data values.
 dataFrameWithReadsAndOutput[,2:2] = sapply(dataFrameWithReadsAndOutput[,2:2], as.numeric)
 
-str(dataFrameWithReadsAndOutput)
+print(str(dataFrameWithReadsAndOutput))
+write.csv(dataFrameWithReadsAndOutput$DataValue, paste(outputfile, "results.csv", sep="/"))
 dataFrameWithReadsAndOutput
 
 #
